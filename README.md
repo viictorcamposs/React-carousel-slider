@@ -1,6 +1,6 @@
 <h1 align="center">
   <img src="public/slider.gif" alt="Slider/Carousel" width="500">
-
+<br />
 
 <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" width="70px" height="50px" align="center"/>
 <h2 align="center">Tecnologias</h2>
@@ -21,6 +21,10 @@
 <p>
   Praticar conceitos de styled components e uso de bibliotecas para criar slider: 
 </p>
+<ul>
+  <li>Styled Components</li>
+  <li>React Awesome Slider</li>
+</ul>
 
 <br />
 
@@ -71,4 +75,4 @@ ou
 ```
   $ npm start
 ```
-<p>6. Abra seu navegador. O carousel vai estar disponível em <a>http://localhost:3000/</a></p>
+<p>6. Abra seu navegador. O carousel vai estar disponível em <a href="http://localhost:3000">http://localhost:3000/</a></p>
