@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src="public/slider.gif" alt="Slider/Carousel" width="500">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" width="70px" height="50px" align="center"/>
+<h2 align="center">Tecnologias</h2>
 
-In the project directory, you can run:
+<p align="center">
+  <strong>Tecnologias utilizadas:</strong>
+</p>
+<ul>
+  <li>JavaScript</li>
+  <li>React.js</li>
+</ul>
 
-### `yarn start`
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <strong>Objetivo:</strong>
+</p>
+<p>
+  Praticar conceitos de styled components e uso de bibliotecas para criar slider: 
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br />
 
-### `yarn test`
+<h2 align="center">Como utilizar:</h2>
+<p> Você precisa ter instalado na sua máquina o <a href="https://nodejs.org/en/">Node.js</a> para poder rodar o projeto.</p>
+   
+<p align="center">
+  <strong>Passos:</strong>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>1. Clone o repositório.</p>
 
-### `yarn build`
+```
+  $ git clone https://github.com/viictorcamposs/react-carousel-slider
+```
+<p>2. Abra o projeto no editor de sua preferência.</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>
+  3. Crie uma pasta 
+  <i>'Img'</i> 
+  dentro da pasta 
+  <i>'src'</i>
+  e adicione suas imagens. 
+</p>
+<i>Lembre-se de alterar o caminho das imagens no arquivo Slider.jsx</i>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+  import img1 from '../Img/[aqui vem sua imagem].png'; 
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>4. No seu terminal, instale os pacotes necessários.</p>
 
-### `yarn eject`
+Yarn
+```
+  $ yarn
+```
+ou
+```
+  $ npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p>5. Show de bola! Agora inicie o servidor.</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+  $ yarn start
+```
+ou
+```
+  $ npm start
+```
+<p>6. Abra seu navegador. O carousel vai estar disponível em <a>http://localhost:3000/</a></p>
